@@ -33,6 +33,7 @@ local ThermostatOperatingState = (require "st.zwave.CommandClass.ThermostatOpera
 
 local QUBINO_FINGERPRINTS = {
   {mfr = 0x0159, prod = 0x0005, model = 0x0054},  -- Qubino Flush On/Off Thermostat 2
+  {mfr = 0x0159, prod = 0x0005, model = 0x0052} -- Qubino flush pwm
 }
 
 -- parameter which tells whether device is configured heat or cool thermostat mode
